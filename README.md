@@ -1,18 +1,24 @@
-## Getting Started
+# Git_VS_JavierMontiel
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este proyecto en Java consiste en la generación y manipulación de números aleatorios, así como en la obtención de números enteros comprendidos entre dos valores introducidos por el usuario. El proyecto se desarrolla en varias etapas y ramas utilizando Git y GitHub.
 
-## Folder Structure
+## Características
 
-The workspace contains two folders by default, where:
+1. **Generación de Números Aleatorios**: Un método que muestra por pantalla 30 números aleatorios entre 1 y 10.
+2. **Obtención de Números Enteros**: Un programa que obtiene números enteros comprendidos entre dos números introducidos por el usuario, incrementando de 7 en 7.
+3. **Interacción del Usuario**: Modificaciones en el programa para incluir un tercer número y validaciones correspondientes.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologías Utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java 11
+- Visual Studio Code
+- GitHub
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Estructura del proyecto
+Act3GIT_TuNombre/
+├── src/
+│   ├── Main.java          # Clase principal para mostrar números aleatorios
+│   ├── NúmerosEnteros.java # Clase para obtener números entre dos valores
+│   └── ...
+├── .gitignore             # Archivos que no se deben subir a Git
+└── README.md              # Documentación del proyecto
